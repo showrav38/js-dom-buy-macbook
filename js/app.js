@@ -24,7 +24,7 @@ function totalBalance() {
   const totalAmount = parseInt(totalText.innerText);
   totalText.innerText = total;
 
-  // footer total amount update
+  // footer total amount update.
   const footerTotalText = document.getElementById('total-balance');
   const footerTotalAmount = parseInt(footerTotalText.innerText);
   footerTotalText.innerText = total;
@@ -58,7 +58,7 @@ document.getElementById('express-delivery').addEventListener('click', function (
   prizeAmount('delivery-charge', 20);
 });
 
-//work on apply button for bonus
+//work on apply button for bonus.
 document.getElementById('apply-btn').addEventListener('click', function () {
   const applyInputText = document.getElementById('apply-field');
   const applyInputAmount = applyInputText.value;
